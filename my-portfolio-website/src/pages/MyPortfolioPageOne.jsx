@@ -5,10 +5,10 @@ function MyPortfolioPageOne() {
   return (
     <>
       <div className="fixed top-0 right-0 z-50">
-        <MyPortfolioSideBar1 pageNumber="01" />
+        <MyPortfolioSideBar1 />
       </div>
 
-      <body className="flex flex-col justify-center items-center min-w-screen min-h-screen bg-[#31302D]">
+      <div className="flex flex-col justify-center items-center min-w-screen min-h-screen bg-[#31302D]">
         <div className="font-bold font-antonio">
           <div className="grid grid-cols-5 grid-rows-3 gap-2">
             <div className="col-span-5">
@@ -68,7 +68,7 @@ function MyPortfolioPageOne() {
             </div>
           </div>
         </div>
-      </body>
+      </div>
     </>
   );
 }
