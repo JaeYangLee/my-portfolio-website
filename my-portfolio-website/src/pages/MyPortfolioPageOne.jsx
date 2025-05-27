@@ -1,18 +1,13 @@
-import React from "react";
 import MyPortfolioSideBar1 from "../components/MyPortfolioSideBar1";
 
 function MyPortfolioPageOne() {
   return (
     <>
-      <div className="fixed top-0 right-0 z-50">
-        <MyPortfolioSideBar1 />
-      </div>
-
       <div className="flex flex-col justify-center items-center min-w-screen min-h-screen bg-[#31302D]">
         <div className="font-bold font-antonio">
           <div className="grid grid-cols-5 grid-rows-3 gap-2">
             <div className="col-span-5">
-              <h1 className="text-[150px] text-[#C6BF8B]">JIAN LEE RAMOS</h1>
+              <h1 className="text-[150px] text-[#C6BF8B] ">JIAN LEE RAMOS</h1>
             </div>
             <div className="col-span-3 row-start-2">
               <h2 className="text-[70px] text-[#F9EEE8]">FRONTEND DEVELOPER</h2>
@@ -24,11 +19,11 @@ function MyPortfolioPageOne() {
                 className="m-4 w-[324px] border border-transparent rounded-2xl shadow-[10px_10px_0px_0px_rgba(198,191,139,0.75)]"
               />
             </div>
-            <div className="flex flex-row items-end justify-start col-span-3 row-span-2 row-start-3 gap-12 pb-12">
+            <div className="flex flex-row items-end justify-start col-span-3 row-span-2 row-start-3 gap-8 pb-12">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="100"
+                width="50"
+                height="50"
                 viewBox="0 0 100 100"
                 fill="none"
               >
@@ -39,8 +34,8 @@ function MyPortfolioPageOne() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="100"
+                width="50"
+                height="50"
                 viewBox="0 0 100 100"
                 fill="none"
               >
@@ -55,8 +50,8 @@ function MyPortfolioPageOne() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="100"
+                width="50"
+                height="50"
                 viewBox="0 0 100 100"
                 fill="none"
               >
