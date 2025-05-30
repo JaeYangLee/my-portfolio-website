@@ -3,7 +3,7 @@ import React from "react";
 function MyPortfolioPageFour() {
   return (
     <>
-      <div className="h-screen grid grid-cols-5 grid-rows-5 gap-4 bg-[#F9EEE8] text-[#31302D]">
+      <div className="w-screen h-screen grid grid-cols-5 grid-rows-5 gap-4 bg-[#F9EEE8] text-[#31302D]">
         <div className="col-span-3 col-start-2 row-span-3 row-start-2">
           <h1 className="font-antonio font-bold text-[80px] ">
             MY TECHNOLOGY SKILLSET

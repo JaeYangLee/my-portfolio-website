@@ -6,7 +6,7 @@ import MyPortfolioPcgInventorySystemCard from "../components/MyPortfolioPcgInven
 function MyPortfolioPageTwo() {
   return (
     <>
-      <div className="h-screen grid grid-cols-5 grid-rows-5 gap-4 bg-[#F9EEE8]">
+      <div className="w-screen h-screen grid grid-cols-5 grid-rows-5 gap-4 bg-[#F9EEE8]">
         <div className="flex items-center justify-center col-span-3 col-start-2">
           <h1 className="font-antonio font-bold text-[65px] text-[#31302D] ">
             MY PROJECTS
