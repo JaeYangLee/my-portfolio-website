@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className="w-full h-full overflow-y-scroll scroll-smooth">
-        <div className="fixed right-0 z-50 flex">
+        <div className="fixed right-0 flex z-60">
           <MyPortfolioSideBar1 pageNumber={"444"} />
         </div>
         <section className="h-full">

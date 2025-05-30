@@ -1,11 +1,9 @@
-import React from "react";
-
 function MyPortfolioPageFive() {
   return (
     <>
       <div className="h-screen max-w-screen flex flex-col justify-center items-center grid-cols-5 grid-rows-5 gap-4 bg-[#31302D] font-antonio">
         <div className="col-span-3 col-start-2 row-start-2">
-          <p className="text-[100px] text-[#C6BF8B]">
+          <p className="text-[100px] text-[#C6BF8B] font-black">
             YOU CAN ALWAYS CONTACT ME!
           </p>
         </div>
