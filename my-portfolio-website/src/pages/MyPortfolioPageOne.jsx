@@ -1,5 +1,6 @@
 import BlurTextAnimation from "../components/BlurTextAnimation.jsx";
 import { useState } from "react";
+import * as motion from "motion/react-client";
 
 function MyPortfolioPageOne() {
   const [showCopiedEmailAlert, setShowCopiedEmailAlert] = useState();
@@ -9,7 +10,7 @@ function MyPortfolioPageOne() {
   const handleGmailCopy = () => {
     navigator.clipboard.writeText("ramosjianlee@gmail.com");
     setShowCopiedEmailAlert(true);
-    setTimeOut(() => setShowCopiedEmailAlert(false), 2000);
+    setTimeOut(() => setShowCopiedEmailAlert(false), 1000);
   };
 
   const handleInstagramClick = () => {
@@ -75,9 +76,24 @@ function MyPortfolioPageOne() {
               </svg>
               {showCopiedEmailAlert && (
                 <>
-                  <div className="">
-                    <p>Email copied to clipboard!</p>
-                  </div>
+                  <motion.div
+                    className="p-2 ml-4 mb-20 fixed flex  justify-center items-center w-48 h-10 bg-[#F9EEE8] z-50 border border-transparent rounded-2xl hover:cursor-pointer"
+                    initial={{ opacity: 0, scale: 0 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                      duration: 0.4,
+                      scale: {
+                        type: "spring",
+                        visualDuration: 0.4,
+                        bounce: 0.5,
+                      },
+                    }}
+                    onClick={() => setShowCopiedEmailAlert(false)}
+                  >
+                    <p className="font-mono text-[12px] text-center">
+                      Email copied to clipboard!
+                    </p>
+                  </motion.div>
                 </>
               )}
               <svg

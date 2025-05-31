@@ -1,6 +1,9 @@
 import React from "react";
 
 function MyPortfolioPcgInventorySystemCard() {
+  const handlePcgInventorySystemClick = () => {
+    window.open("https://github.com/JaeYangLee/pcg-inventory-system");
+  };
   return (
     <>
       <div className="w-[500px]  h-[550px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
@@ -214,7 +217,10 @@ function MyPortfolioPcgInventorySystemCard() {
             </div>
           </div>
           <div className="pt-8 flex flex-row items-start justify-start gap-4 font-mono text-[12px]">
-            <button className="w-[193px] flex flex-row items-center justify-center gap-2 p-2 border rounded-2xl border-[#C6BF8B] bg-[#C6BF8B] transition-transform ease-in transform duration-300 hover:cursor-pointer hover:bg-[#a49e6d] active:bg-[#726c42] active:text-[#F9EEE8]">
+            <button
+              className="w-[193px] flex flex-row items-center justify-center gap-2 p-2 border rounded-2xl border-[#C6BF8B] bg-[#C6BF8B] transition-transform ease-in transform duration-300 hover:cursor-pointer hover:bg-[#a49e6d] active:bg-[#726c42] active:text-[#F9EEE8]"
+              onClick={handlePcgInventorySystemClick}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
@@ -227,7 +233,10 @@ function MyPortfolioPcgInventorySystemCard() {
               </svg>
               View on GitHub
             </button>
-            <button className="w-[193px] flex flex-row items-center justify-center gap-2 p-2 border border-[#31302D] rounded-4xl bg-[#31302D] text-[#F9EEE8]">
+            <button
+              className="w-[193px] flex flex-row items-center justify-center gap-2 p-2 border border-[#31302D] rounded-4xl bg-[#31302D] text-[#F9EEE8]"
+              hidden
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
