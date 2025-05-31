@@ -8,14 +8,14 @@ function MyPortfolioPageFive() {
           </p>
         </div>
         <div className="col-span-3 col-start-2 row-start-3">
-          <p className="text-[#F9EEE8] text-[24px] text-center">
+          <p className="text-[#F9EEE8] text-[20px] text-center font-mono">
             I am always open to new opportunities.
           </p>
-          <p className="text-[#F9EEE8] text-[24px] text-center">
+          <p className="text-[#F9EEE8] text-[20px] text-center font-mono">
             Whether you have a question or just want to say hello, feel free to
-            get in touch. I look forward to connecting with you!
+            get in touch.
           </p>
-          <p className="text-[#F9EEE8] text-[24px] text-center">
+          <p className="text-[#F9EEE8] text-[20px] text-center font-mono">
             I look forward to connecting with you!
           </p>
         </div>
