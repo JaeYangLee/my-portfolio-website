@@ -5,13 +5,13 @@ function MyPortfolioPageThree() {
         <div className="col-span-3 col-start-2 row-span-3 row-start-2">
           <h1 className="font-antonio font-bold text-[100px] ">ABOUT ME</h1>
           <p className="font-mono text-[16px]">
-            Hello po! I'm an aspiring frontend developer from Bulacan,
-            Philippines with a passion for turning creative ideas into
-            functional, user-friendly web experiences. I love exploring and
-            eager to learn new techniques to bring unique UI designs to life
-            always with a strong focus on usability and seamless UX. My goal is
-            to make websites and applications more interactive, engaging, and
-            fun for users without compromising clarity and accessibility.
+            Hello po! I’m an aspiring frontend developer from Bulacan,
+            Philippines, passionate about transforming creative ideas into
+            interactive and user-friendly web experiences. I enjoy exploring new
+            tools and techniques to bring unique UI designs to life—always with
+            a strong focus on usability, accessibility, and seamless UX. My goal
+            is to build websites and applications that are not only functional
+            and engaging but also meaningful and intuitive for users.
           </p>
           <div className="pt-12 flex flex-row items-center justify-start gap-80 font-mono text-[16px]">
             <div className="flex flex-col gap-4">

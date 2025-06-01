@@ -1,6 +1,6 @@
 import React from "react";
 
-function MyPortfolioSideBar1({ pageNumber }) {
+const MyPortfolioSideBar1 = ({ pageNumber }) => {
   return (
     <>
       <div className="flex flex-col m-0 bg-[#31302D] w-[50px] h-screen">
@@ -8,8 +8,8 @@ function MyPortfolioSideBar1({ pageNumber }) {
           <p>ジ </p>
           <p>ア</p>
           <p> ン </p>
-          <p>リ </p>
           <br />
+          <p>リ </p>
           <p>ー</p>
         </div>
         <div className=" flex flex-col justify-center items-center font-mono h-full border-l border-[#F9EEE8] text-[#F9EEE8] text-[12px]">
@@ -38,11 +38,11 @@ function MyPortfolioSideBar1({ pageNumber }) {
           <p>E</p>
         </div>
         <div className="bg-[#F9EEE8] w-[50px] h-[50px] border-l border-[#F9EEE8] text-[16px] font-bold font-mono flex items-center justify-center">
-          <h1 className="">{pageNumber}</h1>
+          <h1 className="">0{pageNumber}</h1>
         </div>
       </div>
     </>
   );
-}
+};
 
 export default MyPortfolioSideBar1;

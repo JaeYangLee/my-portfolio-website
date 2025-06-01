@@ -1,6 +1,7 @@
 import BlurTextAnimation from "../components/BlurTextAnimation.jsx";
 import { useState } from "react";
 import * as motion from "motion/react-client";
+import { AnimatePresence } from "framer-motion";
 
 function MyPortfolioPageOne() {
   const [showCopiedEmailAlert, setShowCopiedEmailAlert] = useState();
@@ -10,7 +11,7 @@ function MyPortfolioPageOne() {
   const handleGmailCopy = () => {
     navigator.clipboard.writeText("ramosjianlee@gmail.com");
     setShowCopiedEmailAlert(true);
-    setTimeOut(() => setShowCopiedEmailAlert(false), 1000);
+    setTimeout(() => setShowCopiedEmailAlert(false), 1200);
   };
 
   const handleInstagramClick = () => {
@@ -74,28 +75,30 @@ function MyPortfolioPageOne() {
                 <path d="M6.25 36.1212V71.875C6.25 78.7786 11.8464 84.375 18.75 84.375H81.25C88.1536 84.375 93.75 78.7786 93.75 71.875V36.1212L56.5512 59.0128C52.5336 61.4852 47.4664 61.4852 43.4488 59.0128L6.25 36.1212Z" />
                 <path d="M93.75 28.7826V28.125C93.75 21.2214 88.1536 15.625 81.25 15.625H18.75C11.8464 15.625 6.25 21.2214 6.25 28.125V28.7826L46.7244 53.6899C48.7332 54.9261 51.2668 54.9261 53.2756 53.6899L93.75 28.7826Z" />
               </svg>
-              {showCopiedEmailAlert && (
-                <>
-                  <motion.div
-                    className="p-2 ml-4 mb-20 fixed flex  justify-center items-center w-48 h-10 bg-[#F9EEE8] z-50 border border-transparent rounded-2xl hover:cursor-pointer"
-                    initial={{ opacity: 0, scale: 0 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{
-                      duration: 0.4,
-                      scale: {
-                        type: "spring",
-                        visualDuration: 0.4,
-                        bounce: 0.5,
-                      },
-                    }}
-                    onClick={() => setShowCopiedEmailAlert(false)}
-                  >
-                    <p className="font-mono text-[12px] text-center">
-                      Email copied to clipboard!
-                    </p>
-                  </motion.div>
-                </>
-              )}
+              <AnimatePresence>
+                {showCopiedEmailAlert && (
+                  <>
+                    <motion.div
+                      className="p-2 ml-4 mb-20 fixed flex justify-center items-center w-48 h-10 bg-[#F9EEE8] z-50 border border-transparent rounded-2xl hover:cursor-pointer"
+                      initial={{ opacity: 0, scale: 0 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.8 }}
+                      transition={{
+                        duration: 0.4,
+                        scale: {
+                          type: "spring",
+                          bounce: 0.5,
+                        },
+                      }}
+                      onClick={() => setShowCopiedEmailAlert(false)}
+                    >
+                      <p className="font-mono text-[12px] text-center font-light">
+                        Email copied to clipboard!
+                      </p>
+                    </motion.div>
+                  </>
+                )}
+              </AnimatePresence>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
