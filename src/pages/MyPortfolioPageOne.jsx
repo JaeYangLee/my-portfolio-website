@@ -44,7 +44,7 @@ function MyPortfolioPageOne() {
             </div>
             <div className="col-span-2 col-start-4 row-span-4 row-start-2">
               <img
-                src="src/assets/IMG_1583 1.png"
+                src="@/assets/IMG_1583 1.png"
                 alt="My Image"
                 className="m-4 w-[324px] border border-transparent rounded-2xl shadow-[10px_10px_0px_0px_rgba(198,191,139,0.75)]"
               />

@@ -9,7 +9,7 @@ function MyPortfolioPcgInventorySystemCard() {
       <div className="w-[500px]  h-[550px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
         <header className="flex flex-row items-center justify-center gap-4 p-4 ">
           <img
-            src="src/assets/CGIS-LOGO 1.png"
+            src="@/assets/CGIS-LOGO 1.png"
             alt="CGIS-logo"
             className="w-[80px]"
           />
