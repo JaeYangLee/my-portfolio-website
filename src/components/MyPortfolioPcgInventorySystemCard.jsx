@@ -1,5 +1,5 @@
 import React from "react";
-import CGISLogo from "assets/CGISLogo.png";
+import CGISLogo from "/assets/CGISLogo.png";
 
 function MyPortfolioPcgInventorySystemCard() {
   const handlePcgInventorySystemClick = () => {
