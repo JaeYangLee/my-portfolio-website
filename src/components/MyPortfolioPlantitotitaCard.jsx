@@ -1,5 +1,5 @@
 import React from "react";
-import plantitotitaImage from "public/assets/PLANTITOTITA-logo.svg";
+import plantitotitaImage from "assets/PLANTITOTITA-logo.svg";
 
 function MyPortfolioPlantitotitaCard() {
   const handlePlantitotitaClick = () => {
