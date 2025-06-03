@@ -1,4 +1,5 @@
 import React from "react";
+import plantitotitaImage from "./assets/PLANTITOTITA-logo.svg";
 
 function MyPortfolioPlantitotitaCard() {
   const handlePlantitotitaClick = () => {
@@ -9,7 +10,7 @@ function MyPortfolioPlantitotitaCard() {
       <div className="w-[400px]  h-[550px] border border-[#31302D] shadow-xl/20 rounded-2xl  text-[#31302D]">
         <header className="flex flex-row items-center justify-center gap-4 p-4 ">
           <img
-            src="@/assets/PLANTITOTITA-logo.svg"
+            src={plantitotitaImage}
             alt="plantitotita-logo"
             className="w-[80px]"
           />
