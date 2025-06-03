@@ -2,7 +2,7 @@ import BlurTextAnimation from "../components/BlurTextAnimation.jsx";
 import { useState } from "react";
 import * as motion from "motion/react-client";
 import { AnimatePresence } from "framer-motion";
-import jianImage from "assets/JianImage.png";
+import JianImage from "assets/JianImage.png";
 
 function MyPortfolioPageOne() {
   const [showCopiedEmailAlert, setShowCopiedEmailAlert] = useState();
@@ -45,7 +45,7 @@ function MyPortfolioPageOne() {
             </div>
             <div className="col-span-2 col-start-4 row-span-4 row-start-2">
               <img
-                src={jianImage}
+                src={JianImage}
                 alt="My Image"
                 className="m-4 w-[324px] border border-transparent rounded-2xl shadow-[10px_10px_0px_0px_rgba(198,191,139,0.75)]"
               />

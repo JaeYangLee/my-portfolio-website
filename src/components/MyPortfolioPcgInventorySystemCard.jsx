@@ -1,5 +1,5 @@
 import React from "react";
-import pcgImage from "assets/CGIS-LOGO 1.png";
+import CGISLogo from "assets/CGISLogo.png";
 
 function MyPortfolioPcgInventorySystemCard() {
   const handlePcgInventorySystemClick = () => {
@@ -9,7 +9,7 @@ function MyPortfolioPcgInventorySystemCard() {
     <>
       <div className="w-[500px]  h-[550px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
         <header className="flex flex-row items-center justify-center gap-4 p-4 ">
-          <img src={pcgImage} alt="CGIS-logo" className="w-[80px]" />
+          <img src={CGISLogo} alt="CGIS-logo" className="w-[80px]" />
           <div className="flex flex-col gap-1">
             <h1 className="font-medium font-antonio text-[16px]">
               PHILIPPINE COAST GUARD - CGWCEISC INVENTORY SYSTEM
