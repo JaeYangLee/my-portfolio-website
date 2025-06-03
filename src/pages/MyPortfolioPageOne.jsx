@@ -2,7 +2,7 @@ import BlurTextAnimation from "../components/BlurTextAnimation.jsx";
 import { useState } from "react";
 import * as motion from "motion/react-client";
 import { AnimatePresence } from "framer-motion";
-import jianImage from "./assets/JianImage.png";
+import jianImage from "public/assets/JianImage.png";
 
 function MyPortfolioPageOne() {
   const [showCopiedEmailAlert, setShowCopiedEmailAlert] = useState();
