@@ -7,23 +7,23 @@ function MyPortfolioPcgInventorySystemCard() {
   };
   return (
     <>
-      <div className="w-[500px]  h-[550px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
+      <div className="lg:m-0 md:ml-2 lg:w-[400px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
         <header className="flex flex-row items-center justify-center gap-4 p-4 ">
           <img src={CGISLogo} alt="CGIS-logo" className="w-[80px]" />
           <div className="flex flex-col gap-1">
-            <h1 className="font-medium font-antonio text-[16px]">
+            <h1 className="font-medium font-antonio lg:text-[16px] md:text-[12px]">
               PHILIPPINE COAST GUARD - CGWCEISC INVENTORY SYSTEM
             </h1>
 
-            <p className="font-mono text-[10px] font-light">
+            <p className="font-mono lg:text-[10px] md:text-[8px] font-light">
               A web based inventory system for PCG’s Storage and Accountability
               Officer.
             </p>
           </div>
         </header>
         <hr />
-        <div className="flex flex-col pl-12 pr-8 mt-4 mb-4">
-          <h2 className="font-medium font-antonio text-[24px]">
+        <div className="flex flex-col pl-12 pr-8 mt-4 lg:mb-4 md:mb-13">
+          <h2 className="font-medium font-antonio lg:text-[24px] md:text-[20px]">
             KEY FEATURES:
           </h2>
           <ul className="flex flex-col gap-2 pt-2">
@@ -143,8 +143,10 @@ function MyPortfolioPcgInventorySystemCard() {
         </div>
         <hr />
         <div className="flex flex-col gap-4 pl-12 pr-8 mt-4 mb-4 ">
-          <h2 className="font-bold font-antonio text-[20px]">TECH STACK:</h2>
-          <div className="flex flex-row items-center justify-center gap-4 font-mono text-[16px]">
+          <h2 className="font-bold font-antonio lg:text-[20px] md:text-[16px]">
+            TECH STACK:
+          </h2>
+          <div className="flex flex-row items-center justify-center gap-4 font-mono lg:text-[16px] md:text-[12px]">
             <div className="flex flex-row items-center justify-center gap-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +162,7 @@ function MyPortfolioPcgInventorySystemCard() {
               </svg>
               <p>React</p>
             </div>
-            <div className="flex flex-row items-center justify-center gap-1 font-mono text-[16px]">
+            <div className="flex flex-row items-center justify-center gap-1 font-mono lg:text-[16px] md:text-[12px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -182,7 +184,7 @@ function MyPortfolioPcgInventorySystemCard() {
               </svg>
               <p>TailwindCSS</p>
             </div>
-            <div className="flex flex-row items-center justify-center gap-1 font-mono text-[16px]">
+            <div className="flex flex-row items-center justify-center gap-1 font-mono lg:text-[16px] md:text-[12px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -197,7 +199,7 @@ function MyPortfolioPcgInventorySystemCard() {
               </svg>
               <p>MySQL</p>
             </div>
-            <div className="flex flex-row items-center justify-center gap-1 font-mono text-[16px]">
+            <div className="flex flex-row items-center justify-center gap-1 font-mono lg:text-[16px] md:text-[12px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -213,7 +215,7 @@ function MyPortfolioPcgInventorySystemCard() {
               <p>Figma</p>
             </div>
           </div>
-          <div className="pt-8 flex flex-row items-start justify-start gap-4 font-mono text-[12px]">
+          <div className="lg:pt-8 md:pt-4 flex flex-row items-start justify-start gap-4 font-mono lg:text-[16px] md:text-[12px]">
             <button
               className="w-[193px] flex flex-row items-center justify-center gap-2 p-2 border rounded-2xl border-[#C6BF8B] bg-[#C6BF8B] transition-transform ease-in transform duration-300 hover:cursor-pointer hover:bg-[#a49e6d] active:bg-[#726c42] active:text-[#F9EEE8]"
               onClick={handlePcgInventorySystemClick}

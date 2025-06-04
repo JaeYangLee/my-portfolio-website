@@ -1,10 +1,12 @@
 function MyPortfolioPageThree() {
   return (
     <>
-      <div className="w-screen h-screen grid grid-cols-5 grid-rows-5 gap-4 bg-[#F9EEE8] text-[#31302D]">
+      <div className="lg:w-screen lg:h-screen md:min-w-[850px] md:min-h-[768px] grid grid-cols-5 grid-rows-5 gap-4 bg-[#F9EEE8] text-[#31302D]">
         <div className="col-span-3 col-start-2 row-span-3 row-start-2">
-          <h1 className="font-antonio font-bold text-[100px] ">ABOUT ME</h1>
-          <p className="font-mono text-[16px]">
+          <h1 className="font-antonio font-bold lg:text-[100px] md:text-[92px] ">
+            ABOUT ME
+          </h1>
+          <p className="font-mono lg:text-[16px] md:text-[12px]">
             Hello po! I’m an aspiring frontend developer from Bulacan,
             Philippines, passionate about transforming creative ideas into
             interactive and user-friendly web experiences. I enjoy exploring new
@@ -13,7 +15,7 @@ function MyPortfolioPageThree() {
             is to build websites and applications that are not only functional
             and engaging but also meaningful and intuitive for users.
           </p>
-          <div className="pt-12 flex flex-row items-center justify-start gap-80 font-mono text-[16px]">
+          <div className="pt-12 flex flex-row items-center justify-start lg:gap-80 md:gap-40 font-mono lg:text-[16px] md:text-[12px]">
             <div className="flex flex-col gap-4">
               <h2 className="flex flex-row items-center gap-4">
                 <svg

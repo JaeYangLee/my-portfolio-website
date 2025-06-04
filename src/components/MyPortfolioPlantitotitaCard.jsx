@@ -7,25 +7,25 @@ function MyPortfolioPlantitotitaCard() {
   };
   return (
     <>
-      <div className="w-[400px]  h-[550px] border border-[#31302D] shadow-xl/20 rounded-2xl  text-[#31302D]">
+      <div className="lg:m-0 md:ml-1 lg:w-[400px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl  text-[#31302D]">
         <header className="flex flex-row items-center justify-center gap-4 p-4 ">
           <img
             src={plantitotitaLogo}
             alt="plantitotita-logo"
-            className="w-[80px]"
+            className="lg:w-[80px] md:w-[68px]"
           />
           <div className="flex flex-col gap-2">
-            <h1 className="font-medium font-antonio text-[32px]">
+            <h1 className="font-medium font-antonio lg:text-[32px] md:text-[24px]">
               PLANTITOTITA
             </h1>
-            <p className="font-mono text-[12px] font-light">
+            <p className="font-mono lg:text-[12px] md:text-[12px] font-light">
               A plant scanning mobile application.
             </p>
           </div>
         </header>
         <hr />
         <div className="flex flex-col pl-12 pr-8 mt-4 mb-4">
-          <h2 className="font-medium font-antonio text-[24px]">
+          <h2 className="font-medium font-antonio lg:text-[24px] md:text-[20px]">
             KEY FEATURES:
           </h2>
           <ul className="flex flex-col gap-4 pt-4">
@@ -92,8 +92,10 @@ function MyPortfolioPlantitotitaCard() {
         </div>
         <hr />
         <div className="flex flex-col gap-4 pl-12 pr-8 mt-4 mb-4 ">
-          <h2 className="font-bold font-antonio text-[20px]">TECH STACK:</h2>
-          <div className="flex flex-row items-center justify-center gap-4 font-mono text-[16px]">
+          <h2 className="font-bold font-antonio lg:text-[20px] md:text-[16px]">
+            TECH STACK:
+          </h2>
+          <div className="flex flex-row items-center justify-center gap-4 font-mono lg:text-[16px] md:text-[12px]">
             <div className="flex flex-row items-center justify-center gap-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +123,7 @@ function MyPortfolioPlantitotitaCard() {
               </svg>
               <p>Java</p>
             </div>
-            <div className="flex flex-row items-center justify-center gap-1 font-mono text-[16px]">
+            <div className="flex flex-row items-center justify-center gap-1 font-mono lg:text-[16px] md:text-[12px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -136,7 +138,7 @@ function MyPortfolioPlantitotitaCard() {
               </svg>
               <p>Android Studio</p>
             </div>
-            <div className="flex flex-row items-center justify-center gap-1 font-mono text-[16px]">
+            <div className="flex flex-row items-center justify-center gap-1 lg:text-[16px] md:text-[12px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -152,7 +154,7 @@ function MyPortfolioPlantitotitaCard() {
               <p>Figma</p>
             </div>
           </div>
-          <div className="pt-8 flex flex-row items-start justify-start gap-4 font-mono text-[12px]">
+          <div className="lg:pt-8 md:pt-4 flex flex-row items-start justify-start gap-4 font-mono text-[12px]">
             <button
               className="w-[193px] flex flex-row items-center justify-center gap-2 p-2 border  rounded-2xl border-[#C6BF8B] bg-[#C6BF8B] transition-transform ease-in transform duration-300 hover:cursor-pointer hover:bg-[#a49e6d] active:bg-[#726c42] active:text-[#F9EEE8]"
               onClick={handlePlantitotitaClick}

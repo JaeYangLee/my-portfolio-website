@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
-import "./index.css";
 import MyPortfolioPageTwo from "./pages/MyPortfolioPageTwo";
 import MyPortfolioSideBar1 from "./components/MyPortfolioSideBar1";
 import MyPortfolioPageOne from "./pages/MyPortfolioPageOne";
 import MyPortfolioPageThree from "./pages/MyPortfolioPageThree";
 import MyPortfolioPageFour from "./pages/MyPortfolioPageFour";
 import MyPortfolioPageFive from "./pages/MyPortfolioPageFive";
+import "./index.css";
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -51,7 +51,7 @@ const App = () => {
   return (
     <>
       <div className="w-full">
-        <div className="fixed right-0 flex z-50">
+        <div className="fixed right-0 z-50 flex">
           <MyPortfolioSideBar1 pageNumber={currentPage} />
         </div>
 
