@@ -51,11 +51,11 @@ const App = () => {
   return (
     <>
       <div className="w-full">
-        <div className="fixed right-0 z-50 flex">
+        <div className="fixed right-0 z-50 flex lg:fixed md:fixed sm:fixed">
           <MyPortfolioSideBar1 pageNumber={currentPage} />
         </div>
 
-        <div className="lg:overflow-x-hidden md:overflow-x-hidden">
+        <div className="lg:overflow-x-hidden">
           <section ref={sectionRefs[0]} className="h-full">
             <MyPortfolioPageOne />
           </section>
