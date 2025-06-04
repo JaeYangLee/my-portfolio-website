@@ -22,7 +22,7 @@ function MyPortfolioPageOne() {
   };
   return (
     <>
-      <div className="flex flex-col justify-center items-center lg:min-w-screen lg:min-h-screen md:min-w-[858px] md:min-h-screen bg-[#31302D]">
+      <div className="flex flex-col justify-center items-center w-[100vw] h-screen lg:min-w-full lg:min-h-screen md:min-w-[858px] md:min-h-[768px] bg-[#31302D]">
         <div className="font-bold font-antonio">
           <div className="grid grid-cols-5 grid-rows-3 gap-2">
             <div className="col-span-5">

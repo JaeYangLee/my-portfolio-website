@@ -3,7 +3,7 @@ import React from "react";
 const MyPortfolioSideBar1 = ({ pageNumber }) => {
   return (
     <>
-      <div className="flex flex-col m-0 bg-[#31302D] lg:w-[50px] lg:h-screen md:min-w-[40px] md:min-h-full">
+      <div className="  flex flex-col m-0 bg-[#31302D] lg:w-[50px] lg:h-screen md:min-w-[40px] md:min-h-[100vh]">
         <div className="bg-[#C6BF8B] text-[12px] lg:w-[50px] lg:h-[200px] md:w-[40px] md:h-[152px] font-bold font-mono flex flex-col items-center justify-center">
           <p>ジ </p>
           <p>ア</p>
@@ -12,7 +12,7 @@ const MyPortfolioSideBar1 = ({ pageNumber }) => {
           <p>リ </p>
           <p>ー</p>
         </div>
-        <div className=" flex flex-col justify-center items-center font-mono lg:h-full md:h-[548px] border-l border-[#F9EEE8] text-[#F9EEE8] text-[12px]">
+        <div className=" flex flex-col justify-center items-center font-mono lg:h-full md:h-[540px] border-l border-[#F9EEE8] text-[#F9EEE8] text-[12px]">
           <p>1</p>
           <p>4</p>
           <p>.</p>
@@ -37,7 +37,7 @@ const MyPortfolioSideBar1 = ({ pageNumber }) => {
           <br />
           <p>E</p>
         </div>
-        <div className="bg-[#F9EEE8] lg:w-[50px] lg:h-[50px] md:h-[40px] border-l border-[#F9EEE8] text-[16px] font-bold font-mono flex items-center justify-center">
+        <div className="bg-[#F9EEE8] lg:w-[50px] lg:h-[50px] md:h-[48px] border-l border-[#F9EEE8] text-[16px] font-bold font-mono flex items-center justify-center">
           <h1 className="">0{pageNumber}</h1>
         </div>
       </div>

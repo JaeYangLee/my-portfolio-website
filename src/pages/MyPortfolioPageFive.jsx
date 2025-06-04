@@ -17,7 +17,7 @@ function MyPortfolioPageFive() {
   };
   return (
     <>
-      <div className="lg:w-screen lg:h-screen md:min-w-[850px] md:min-h-screen flex flex-col justify-center items-center grid-cols-5 grid-rows-5 gap-4 bg-[#31302D] font-antonio">
+      <div className="lg:w-screen lg:h-screen md:min-w-[850px] md:min-h-[768px] flex flex-col justify-center items-center grid-cols-5 grid-rows-5 gap-4 bg-[#31302D] font-antonio">
         <div className="col-span-3 col-start-2 row-start-2">
           <p className="lg:text-[100px] md:text-[65px] text-[#C6BF8B] font-black">
             YOU CAN ALWAYS CONTACT ME!
@@ -142,7 +142,7 @@ function MyPortfolioPageFive() {
           </AnimatePresence>
         </div>
 
-        <div className="mt-8 font-mono font-extralight text-[12px] text-[#F9EEE8]/40">
+        <div className="lg:mt-8 lg:mt-20 font-mono font-extralight text-[12px] text-[#F9EEE8]/40">
           <p>© 2025 Jian Lee Ramos. All rights reserved.</p>
         </div>
       </div>

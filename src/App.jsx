@@ -55,21 +55,23 @@ const App = () => {
           <MyPortfolioSideBar1 pageNumber={currentPage} />
         </div>
 
-        <section ref={sectionRefs[0]} className="h-full">
-          <MyPortfolioPageOne />
-        </section>
-        <section ref={sectionRefs[1]} className="h-full">
-          <MyPortfolioPageTwo />
-        </section>
-        <section ref={sectionRefs[2]} className="h-full">
-          <MyPortfolioPageThree />
-        </section>
-        <section ref={sectionRefs[3]} className="h-full">
-          <MyPortfolioPageFour />
-        </section>
-        <section ref={sectionRefs[4]} className="h-full">
-          <MyPortfolioPageFive />
-        </section>
+        <div className="lg:overflow-x-hidden md:overflow-x-hidden">
+          <section ref={sectionRefs[0]} className="h-full">
+            <MyPortfolioPageOne />
+          </section>
+          <section ref={sectionRefs[1]} className="h-full">
+            <MyPortfolioPageTwo />
+          </section>
+          <section ref={sectionRefs[2]} className="h-full">
+            <MyPortfolioPageThree />
+          </section>
+          <section ref={sectionRefs[3]} className="h-full">
+            <MyPortfolioPageFour />
+          </section>
+          <section ref={sectionRefs[4]} className="h-full">
+            <MyPortfolioPageFive />
+          </section>
+        </div>
       </div>
     </>
   );
