@@ -7,7 +7,7 @@ function MyPortfolioPcgInventorySystemCard() {
   };
   return (
     <>
-      <div className="lg:m-0 md:ml-2 lg:w-[428px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
+      <div className="lg:m-0 md:ml-2 lg:w-[432px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
         <header className="flex flex-row items-center justify-center gap-4 p-4 ">
           <img src={CGISLogo} alt="CGIS-logo" className="w-[80px]" />
           <div className="flex flex-col gap-1">
