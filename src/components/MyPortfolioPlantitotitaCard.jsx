@@ -7,18 +7,18 @@ function MyPortfolioPlantitotitaCard() {
   };
   return (
     <>
-      <div className="lg:m-0 md:ml-1 lg:w-[400px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl  text-[#31302D]">
+      <div className="lg:m-0 md:ml-1 w-[300px] h-[550px] lg:w-[400px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl  text-[#31302D]">
         <header className="flex flex-row items-center justify-center gap-4 p-4 ">
           <img
             src={plantitotitaLogo}
             alt="plantitotita-logo"
-            className="lg:w-[80px] md:w-[68px]"
+            className="w-[40px] lg:w-[80px] md:w-[68px]"
           />
           <div className="flex flex-col gap-2">
-            <h1 className="font-medium font-antonio lg:text-[32px] md:text-[24px]">
+            <h1 className="font-medium font-antonio text-[20px] lg:text-[32px] md:text-[24px]">
               PLANTITOTITA
             </h1>
-            <p className="font-mono lg:text-[12px] md:text-[12px] font-light">
+            <p className="font-mono lg:text-[12px] text-[12px] md:text-[12px] font-light">
               A plant scanning mobile application.
             </p>
           </div>
@@ -95,7 +95,7 @@ function MyPortfolioPlantitotitaCard() {
           <h2 className="font-bold font-antonio lg:text-[20px] md:text-[16px]">
             TECH STACK:
           </h2>
-          <div className="flex flex-row items-center justify-center gap-4 font-mono lg:text-[16px] md:text-[12px]">
+          <div className="flex flex-row items-center justify-center gap-4 font-mono text-[12px] lg:text-[16px] md:text-[12px]">
             <div className="flex flex-row items-center justify-center gap-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

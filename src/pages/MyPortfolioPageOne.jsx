@@ -22,7 +22,7 @@ function MyPortfolioPageOne() {
   };
   return (
     <>
-      <div className="flex flex-col justify-center items-center lg:min-w-full lg:min-h-screen md:min-w-[858px] md:min-h-[768px]  bg-[#31302D]">
+      <div className="flex flex-col justify-center items-center w-[640px] min-h-[1080px] lg:min-w-full lg:min-h-screen md:min-w-[858px] md:min-h-[768px]  bg-[#31302D]">
         <div className="font-bold font-antonio">
           <div className="grid grid-cols-5 grid-rows-3 gap-2">
             <div className="col-span-5">
@@ -31,7 +31,7 @@ function MyPortfolioPageOne() {
                 delay={150}
                 animateBy="words"
                 direction="top"
-                className="pl-8 lg:p-0 md:pl-12 text-[90px] lg:text-[150px] text-[#C6BF8B] md:text-[100px]"
+                className="pl-8 lg:p-0 md:pl-12 text-[80px] lg:text-[150px] text-[#C6BF8B] md:text-[100px]"
               />
             </div>
             <div className="col-span-3 row-start-2">
@@ -40,14 +40,14 @@ function MyPortfolioPageOne() {
                 delay={150}
                 animateBy="words"
                 direction="top"
-                className="pl-8 lg:p-0 md:pl-12 text-[36px] text-[#F9EEE8] lg:text-[65px] md:text-[40px]"
+                className="pl-8 lg:p-0 md:pl-12 text-[28px] text-[#F9EEE8] lg:text-[65px] md:text-[40px]"
               />
             </div>
             <div className="col-span-2 col-start-4 row-span-4 row-start-2">
               <img
                 src={JianImage}
                 alt="My Image"
-                className="m-0 lg:m-4 md:m-2 w-[200px] lg:w-[324px] md:w-[224px] border border-transparent rounded-2xl shadow-[10px_10px_0px_0px_rgba(198,191,139,0.75)]"
+                className="m-0 lg:m-4 md:m-2 w-[180px] lg:w-[324px] md:w-[224px] border border-transparent rounded-2xl shadow-[10px_10px_0px_0px_rgba(198,191,139,0.75)]"
               />
             </div>
             <div className="flex flex-row items-end justify-start col-span-3 row-span-2 row-start-3 gap-8 pb-8 pl-8 lg:pb-12 md:pl-12 md:pb-8">

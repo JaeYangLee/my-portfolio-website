@@ -1,9 +1,9 @@
 function MyPortfolioPageThree() {
   return (
     <>
-      <div className="lg:w-screen lg:h-screen md:min-w-[850px] md:min-h-[768px] grid grid-cols-5 grid-rows-5 gap-4 bg-[#F9EEE8] text-[#31302D]">
+      <div className="w-[640px] min-h-[1080px] lg:w-screen lg:h-screen md:min-w-[850px] md:min-h-[768px] grid grid-cols-5 grid-rows-5 gap-4 bg-[#F9EEE8] text-[#31302D]">
         <div className="col-span-3 col-start-2 row-span-3 row-start-2">
-          <h1 className="font-antonio font-bold lg:text-[100px] md:text-[92px] ">
+          <h1 className="font-antonio font-bold text-[80px] lg:text-[100px] md:text-[92px] ">
             ABOUT ME
           </h1>
           <p className="font-mono lg:text-[16px] md:text-[12px]">

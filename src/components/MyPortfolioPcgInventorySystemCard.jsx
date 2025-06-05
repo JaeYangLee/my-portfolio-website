@@ -7,26 +7,30 @@ function MyPortfolioPcgInventorySystemCard() {
   };
   return (
     <>
-      <div className="lg:m-0 md:ml-2 lg:w-[432px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
+      <div className="ml-1 lg:m-0 md:ml-2 w-[294px] h-[612px] lg:w-[432px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
         <header className="flex flex-row items-center justify-center gap-4 p-4 ">
-          <img src={CGISLogo} alt="CGIS-logo" className="w-[80px]" />
+          <img
+            src={CGISLogo}
+            alt="CGIS-logo"
+            className="w-[40px] lg:w-[80px] md:w-[68px]"
+          />
           <div className="flex flex-col gap-1">
-            <h1 className="font-medium font-antonio lg:text-[16px] md:text-[12px]">
+            <h1 className="font-medium font-antonio text-[16px] lg:text-[16px] md:text-[12px]">
               PHILIPPINE COAST GUARD - CGWCEISC INVENTORY SYSTEM
             </h1>
 
-            <p className="font-mono lg:text-[10px] md:text-[8px] font-light">
+            <p className="font-mono text-[8px] lg:text-[10px] md:text-[8px] font-light">
               A web based inventory system for PCG’s Storage and Accountability
               Officer.
             </p>
           </div>
         </header>
         <hr />
-        <div className="flex flex-col pl-12 pr-8 mt-4 lg:mb-4 md:mb-13">
+        <div className="flex flex-col pl-12 pr-8 mt-4 mb-4 lg:mb-4 md:mb-13">
           <h2 className="font-medium font-antonio lg:text-[24px] md:text-[20px]">
             KEY FEATURES:
           </h2>
-          <ul className="flex flex-col gap-2 pt-2">
+          <ul className="flex flex-col gap-2 p-0 pt-4 ">
             <div className="flex flex-row gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +46,7 @@ function MyPortfolioPcgInventorySystemCard() {
                   fill="#C6BF8B"
                 />
               </svg>
-              <li className="font-mono text-[13px]">
+              <li className="font-mono text-[11px] lg:text-[13px]">
                 User Authentication and Roles.
               </li>
             </div>
@@ -61,7 +65,7 @@ function MyPortfolioPcgInventorySystemCard() {
                   fill="#C6BF8B"
                 />
               </svg>
-              <li className="font-mono text-[13px]">
+              <li className="font-mono text-[11px] lg:text-[13px]">
                 Real-Time Inventory Tracking.
               </li>
             </div>
@@ -80,7 +84,9 @@ function MyPortfolioPcgInventorySystemCard() {
                   fill="#C6BF8B"
                 />
               </svg>
-              <li className="font-mono text-[13px]">Item Management.</li>
+              <li className="font-mono text-[11px] lg:text-[13px]">
+                Item Management.
+              </li>
             </div>
             <div className="flex flex-row gap-4">
               <svg
@@ -97,7 +103,7 @@ function MyPortfolioPcgInventorySystemCard() {
                   fill="#C6BF8B"
                 />
               </svg>
-              <li className="font-mono text-[13px]">
+              <li className="font-mono text-[11px] lg:text-[13px]">
                 Inventory Logs & History.
               </li>
             </div>
@@ -116,7 +122,7 @@ function MyPortfolioPcgInventorySystemCard() {
                   fill="#C6BF8B"
                 />
               </svg>
-              <li className="font-mono text-[13px]">
+              <li className="font-mono text-[11px] lg:text-[13px]">
                 Search and Filter Options.
               </li>
             </div>
@@ -135,7 +141,7 @@ function MyPortfolioPcgInventorySystemCard() {
                   fill="#C6BF8B"
                 />
               </svg>
-              <li className="font-mono text-[13px]">
+              <li className="font-mono text-[11px] lg:text-[13px]">
                 Inventory Reports Generation.
               </li>
             </div>
@@ -146,7 +152,7 @@ function MyPortfolioPcgInventorySystemCard() {
           <h2 className="font-bold font-antonio lg:text-[20px] md:text-[16px]">
             TECH STACK:
           </h2>
-          <div className="flex flex-row items-center justify-center gap-4 font-mono lg:text-[16px] md:text-[12px]">
+          <div className="flex flex-col lg:flex-row md:flex-row items-center justify-center gap-4 font-mono text-[12px] lg:text-[16px] md:text-[12px]">
             <div className="flex flex-row items-center justify-center gap-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -215,7 +221,7 @@ function MyPortfolioPcgInventorySystemCard() {
               <p>Figma</p>
             </div>
           </div>
-          <div className="lg:pt-8 md:pt-4 flex flex-row items-start justify-start gap-4 font-mono lg:text-[12px] md:text-[12px]">
+          <div className=" lg:pt-4 md:pt-4 flex flex-row items-start justify-start gap-4 font-mono text-[12px] lg:text-[12px] md:text-[12px]">
             <button
               className="w-[193px] flex flex-row items-center justify-center gap-2 p-2 border rounded-2xl border-[#C6BF8B] bg-[#C6BF8B] transition-transform ease-in transform duration-300 hover:cursor-pointer hover:bg-[#a49e6d] active:bg-[#726c42] active:text-[#F9EEE8]"
               onClick={handlePcgInventorySystemClick}

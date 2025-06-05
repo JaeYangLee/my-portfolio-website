@@ -17,21 +17,21 @@ function MyPortfolioPageFive() {
   };
   return (
     <>
-      <div className="lg:w-screen lg:h-screen md:min-w-[850px] md:min-h-[768px] flex flex-col justify-center items-center grid-cols-5 grid-rows-5 gap-4 bg-[#31302D] font-antonio">
+      <div className="w-[640px] min-h-[1080px] lg:w-screen lg:h-screen md:min-w-[850px] md:min-h-[768px] flex flex-col justify-center items-center grid-cols-5 grid-rows-5 gap-4 bg-[#31302D] font-antonio">
         <div className="col-span-3 col-start-2 row-start-2">
-          <p className="lg:text-[100px] md:text-[65px] text-[#C6BF8B] font-black">
+          <p className="text-[44px] lg:text-[100px] md:text-[65px] text-[#C6BF8B] font-black">
             YOU CAN ALWAYS CONTACT ME!
           </p>
         </div>
         <div className="col-span-3 col-start-2 row-start-3">
-          <p className="text-[#F9EEE8] lg:text-[20px] md:text-[12px] text-center font-mono">
+          <p className="text-[#F9EEE8] text-[16px] lg:text-[20px] md:text-[12px] text-center font-mono">
             I am always open to new opportunities.
           </p>
-          <p className="text-[#F9EEE8] lg:text-[20px] md:text-[12px] text-center font-mono">
+          <p className="text-[#F9EEE8] text-[16px] lg:text-[20px] md:text-[12px] text-center font-mono">
             Whether you have a question or just want to say hello, feel free to
             get in touch.
           </p>
-          <p className="text-[#F9EEE8] lg:text-[20px] md:text-[12px] text-center font-mono">
+          <p className="text-[#F9EEE8] text-[16px] lg:text-[20px] md:text-[12px] text-center font-mono">
             I look forward to connecting with you!
           </p>
         </div>
