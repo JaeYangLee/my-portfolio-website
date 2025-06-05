@@ -7,7 +7,7 @@ function MyPortfolioPcgInventorySystemCard() {
   };
   return (
     <>
-      <div className="lg:m-0 md:ml-2 lg:w-[400px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
+      <div className="lg:m-0 md:ml-2 lg:w-[428px] lg:h-[550px] md:w-[370px] md:h-[560px] border border-[#31302D] shadow-xl/20 rounded-2xl text-[#31302D]">
         <header className="flex flex-row items-center justify-center gap-4 p-4 ">
           <img src={CGISLogo} alt="CGIS-logo" className="w-[80px]" />
           <div className="flex flex-col gap-1">
@@ -215,7 +215,7 @@ function MyPortfolioPcgInventorySystemCard() {
               <p>Figma</p>
             </div>
           </div>
-          <div className="lg:pt-8 md:pt-4 flex flex-row items-start justify-start gap-4 font-mono lg:text-[16px] md:text-[12px]">
+          <div className="lg:pt-8 md:pt-4 flex flex-row items-start justify-start gap-4 font-mono lg:text-[12px] md:text-[12px]">
             <button
               className="w-[193px] flex flex-row items-center justify-center gap-2 p-2 border rounded-2xl border-[#C6BF8B] bg-[#C6BF8B] transition-transform ease-in transform duration-300 hover:cursor-pointer hover:bg-[#a49e6d] active:bg-[#726c42] active:text-[#F9EEE8]"
               onClick={handlePcgInventorySystemClick}
